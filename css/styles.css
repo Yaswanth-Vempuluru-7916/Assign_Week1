@@ -179,6 +179,104 @@ header .nav-links a {
   display: block; 
 }
 
+/* *********************************Feature Styles Start******************************* */ 
+.features { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  padding: 40px 0; 
+  background: transparent;
+  position: relative;
+  z-index: 2;
+  margin-bottom: -50px; /* Creates overlap effect */
+} 
+ 
+.features__container { 
+  display: flex; 
+  gap: 20px; 
+  max-width: 1100px; 
+  width: 90%; 
+  margin-bottom: -25px;
+  justify-content: space-around; 
+} 
+ 
+.feature__card { 
+  background: #fff; 
+  padding: 20px; 
+  text-align: center; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  flex: 1; 
+  max-width: 300px; 
+} 
+ 
+.feature__card img { 
+  width: 60px;   
+  height: 60px;  
+  object-fit: contain;  
+  margin-bottom: 15px; 
+} 
+ 
+.feature__card h3 { 
+  font-size: 18px; 
+  margin-bottom: 10px; 
+} 
+ 
+.feature__card p { 
+  font-size: 14px; 
+  color: #495C76B2; 
+}
+
+/* *********************************Achievement Styles******************************* */ 
+.achievements {
+  background-color: #E75480;
+  padding: 80px 0;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.achievements__container {
+  max-width: 1100px;
+  width: 90%;
+  margin: 5% auto 0;
+  text-align: center;
+}
+
+.achievements__container h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.achievements__container > p {
+  max-width: 800px;
+  margin: 0 auto 50px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.achievement__item__container {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.achievement__item {
+  text-align: center;
+}
+
+.achievement__item h3 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.achievement__item p {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
 /* *********************************Footer Styles Start******************************* */
 footer {
   text-align: center;
