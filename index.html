@@ -1,11 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechnoFevers</title>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css"> <!-- Link to CSS file -->
 </head>
 <body>
-    
+  
+ 
+  <header>
+    <nav>
+        <div class="logo">
+            <a href="#">
+              <img src="assets/images/Techno Fevers 1.png" alt="TechnoFevers" class="logo__image">
+              <div class="logo__text">
+                TECHNO<span class="logo__text--highlight">FEVERS</span>
+              </div>
+            </a>
+          </div>
+          
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+ <!-- Hero Section -->
+<section id="hero" class="hero">
+  <div class="hero__content">
+    <h1 class="hero__title">
+      Instant collaboration 
+      <br>  
+      for productive projects
+    </h1>
+    <p class="hero__description">
+      We are a full-service software company that specializes <br>in developing complex web solutions
+    </p>
+    <div class="hero__email">
+      <input type="email" class="hero__email-input" placeholder="Email">
+      <button type="button" class="hero__email-button">Get In Touch</button>
+    </div>
+  </div>
+</section>
+
+  
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about__container">
+      <h2 class="about__title">ABOUT US</h2>
+      <p class="about__description">
+        TechnoFevers is a full service software development company that specializes in developing complex web solutions.we are focused on designing and developing customer-centric products and applications for tartups to elite business groupacross the globe. 
+      </p>
+      <p class="about__description">
+        We build the foundation for cognitive business by working with complex technologies and rapidly evolving business environment to offer project performance optimization.
+      </p>
+
+      <div class="about__image-container">
+       <img src="./assets/images/about_us_image.png" alt="about_us_image">
+      </div>
+   
+  </section>
+  
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="service">
+      <h3>Service 1</h3>
+      <p>Brief description of the service.</p>
+    </div>
+    <div class="service">
+      <h3>Service 2</h3>
+      <p>Brief description of the service.</p>
+    </div>
+    <div class="service">
+      <h3>Service 3</h3>
+      <p>Brief description of the service.</p>
+    </div>
+  </section>
+  
+  <!-- Call to Action Section -->
+  <section id="cta">
+    <h2>Ready to Get Started?</h2>
+    <a href="#contact" class="btn">Contact Us</a>
+  </section>
+  
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Your Website Name. All rights reserved.</p>
+    <ul class="social-links">
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">LinkedIn</a></li>
+    </ul>
+  </footer>
+  
+  <script src="js/script.js"></script> <!-- Link to JavaScript file -->
 </body>
 </html>
